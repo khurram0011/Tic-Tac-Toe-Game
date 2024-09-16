@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: purple;
+    text-align: center;
+}
+
+#resetBtn{
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem ;
+    border: none;
+}
+.container{
+   
+
+    height: 70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.box-container{
+    height: 60vmin;
+ width: 60vmin;
+ display: flex;
+ flex-direction:column;
+ flex-wrap:wrap ;
+ gap: 1.5vmin;
+ justify-content: center;
+ align-items: center;
+}
+.box{
+     height: 18vmin;
+     width: 18vmin;
+     background-color: white;
+     font-size: 64px;
+     color: rebeccapurple;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem ;
+    border: none;
+
+}
+#msg{
+    color: white;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 30vmin;
+
+}
+
+.hide{
+    display: none;
+}
